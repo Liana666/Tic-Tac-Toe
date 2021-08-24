@@ -43,7 +43,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
 
-    background: #5c619beb;
+    background: #5c619bd9;
     border-radius: 30px;
     transform: translate(-50%, -50%);
     
@@ -105,9 +105,15 @@ img {
 }
 
 
-@media(max-width: 991px) {
-    table {
-        width: 100%;    
+@media(max-width: 960px) {
+    table {  
         border-spacing: 3px;
+    }
+}
+
+@media(max-width: 720px) {
+    table {
+        width: 100%; 
+         
     }
 }
